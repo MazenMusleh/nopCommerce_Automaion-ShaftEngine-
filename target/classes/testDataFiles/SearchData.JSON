@@ -1,0 +1,7 @@
+{
+  "lessThan3CharData": "co",
+  "validSearchData" : "apple",
+  "invalidSearchData" : "dgfgdgf",
+  "Category" : "Computers >> Notebooks",
+  "Manufacturer" : "All"
+}

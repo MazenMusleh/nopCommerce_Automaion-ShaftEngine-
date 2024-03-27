@@ -1,0 +1,168 @@
+[INFO ] 2024-03-28 00:39:21.062 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.8.1.20240324[22m                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-03-28 00:39:21.066 [main] ReportManager - Checking for engine updates...
+[DEBUG] 2024-03-28 00:39:22.180 [] BasicClientConnectionManager - Get connection for route {s}->https://api.github.com:443
+[DEBUG] 2024-03-28 00:39:22.199 [] DefaultClientConnectionOperator - Connecting to api.github.com:443
+[DEBUG] 2024-03-28 00:39:22.498 [] RequestAddCookies - CookieSpec selected: ignoreCookies
+[DEBUG] 2024-03-28 00:39:22.499 [] RequestAuthCache - Auth cache not set in the context
+[DEBUG] 2024-03-28 00:39:22.499 [] RequestTargetAuthentication - Target auth state: UNCHALLENGED
+[DEBUG] 2024-03-28 00:39:22.500 [] RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+[DEBUG] 2024-03-28 00:39:22.500 [] DefaultClientConnection - Sending request: GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2024-03-28 00:39:22.500 [] wire -  >> "GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1[\r][\n]"
+[DEBUG] 2024-03-28 00:39:22.501 [] wire -  >> "Accept: */*[\r][\n]"
+[DEBUG] 2024-03-28 00:39:22.501 [] wire -  >> "Host: api.github.com[\r][\n]"
+[DEBUG] 2024-03-28 00:39:22.501 [] wire -  >> "Connection: Keep-Alive[\r][\n]"
+[DEBUG] 2024-03-28 00:39:22.501 [] wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.2)[\r][\n]"
+[DEBUG] 2024-03-28 00:39:22.501 [] wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+[DEBUG] 2024-03-28 00:39:22.501 [] wire -  >> "[\r][\n]"
+[DEBUG] 2024-03-28 00:39:22.501 [] headers - >> GET /repos/ShaftHQ/SHAFT_ENGINE/releases/latest HTTP/1.1
+[DEBUG] 2024-03-28 00:39:22.501 [] headers - >> Accept: */*
+[DEBUG] 2024-03-28 00:39:22.501 [] headers - >> Host: api.github.com
+[DEBUG] 2024-03-28 00:39:22.501 [] headers - >> Connection: Keep-Alive
+[DEBUG] 2024-03-28 00:39:22.501 [] headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21.0.2)
+[DEBUG] 2024-03-28 00:39:22.501 [] headers - >> Accept-Encoding: gzip,deflate
+[DEBUG] 2024-03-28 00:39:22.793 [] wire -  << "HTTP/1.1 200 OK[\r][\n]"
+[DEBUG] 2024-03-28 00:39:22.794 [] wire -  << "Server: GitHub.com[\r][\n]"
+[DEBUG] 2024-03-28 00:39:22.794 [] wire -  << "Date: Wed, 27 Mar 2024 22:39:22 GMT[\r][\n]"
+[DEBUG] 2024-03-28 00:39:22.795 [] wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+[DEBUG] 2024-03-28 00:39:22.795 [] wire -  << "Cache-Control: public, max-age=60, s-maxage=60[\r][\n]"
+[DEBUG] 2024-03-28 00:39:22.795 [] wire -  << "Vary: Accept, Accept-Encoding, Accept, X-Requested-With[\r][\n]"
+[DEBUG] 2024-03-28 00:39:22.795 [] wire -  << "ETag: W/"2de822c66c0debfcafa33f0881ee80c0766c62be97f66b8e0b66a0aeb3589cb8"[\r][\n]"
+[DEBUG] 2024-03-28 00:39:22.795 [] wire -  << "Last-Modified: Sat, 23 Mar 2024 23:21:13 GMT[\r][\n]"
+[DEBUG] 2024-03-28 00:39:22.795 [] wire -  << "X-GitHub-Media-Type: github.v3; format=json[\r][\n]"
+[DEBUG] 2024-03-28 00:39:22.795 [] wire -  << "x-github-api-version-selected: 2022-11-28[\r][\n]"
+[DEBUG] 2024-03-28 00:39:22.795 [] wire -  << "Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset[\r][\n]"
+[DEBUG] 2024-03-28 00:39:22.795 [] wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+[DEBUG] 2024-03-28 00:39:22.795 [] wire -  << "Strict-Transport-Security: max-age=31536000; includeSubdomains; preload[\r][\n]"
+[DEBUG] 2024-03-28 00:39:22.795 [] wire -  << "X-Frame-Options: deny[\r][\n]"
+[DEBUG] 2024-03-28 00:39:22.795 [] wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+[DEBUG] 2024-03-28 00:39:22.796 [] wire -  << "X-XSS-Protection: 0[\r][\n]"
+[DEBUG] 2024-03-28 00:39:22.796 [] wire -  << "Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin[\r][\n]"
+[DEBUG] 2024-03-28 00:39:22.796 [] wire -  << "Content-Security-Policy: default-src 'none'[\r][\n]"
+[DEBUG] 2024-03-28 00:39:22.796 [] wire -  << "Content-Encoding: gzip[\r][\n]"
+[DEBUG] 2024-03-28 00:39:22.796 [] wire -  << "X-RateLimit-Limit: 60[\r][\n]"
+[DEBUG] 2024-03-28 00:39:22.796 [] wire -  << "X-RateLimit-Remaining: 47[\r][\n]"
+[DEBUG] 2024-03-28 00:39:22.796 [] wire -  << "X-RateLimit-Reset: 1711581590[\r][\n]"
+[DEBUG] 2024-03-28 00:39:22.796 [] wire -  << "X-RateLimit-Resource: core[\r][\n]"
+[DEBUG] 2024-03-28 00:39:22.796 [] wire -  << "X-RateLimit-Used: 13[\r][\n]"
+[DEBUG] 2024-03-28 00:39:22.796 [] wire -  << "Accept-Ranges: bytes[\r][\n]"
+[DEBUG] 2024-03-28 00:39:22.796 [] wire -  << "Content-Length: 1663[\r][\n]"
+[DEBUG] 2024-03-28 00:39:22.796 [] wire -  << "X-GitHub-Request-Id: EFF7:310B48:EC1E615:ED20092:6604A01A[\r][\n]"
+[DEBUG] 2024-03-28 00:39:22.796 [] wire -  << "[\r][\n]"
+[DEBUG] 2024-03-28 00:39:22.797 [] DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+[DEBUG] 2024-03-28 00:39:22.797 [] headers - << HTTP/1.1 200 OK
+[DEBUG] 2024-03-28 00:39:22.797 [] headers - << Server: GitHub.com
+[DEBUG] 2024-03-28 00:39:22.797 [] headers - << Date: Wed, 27 Mar 2024 22:39:22 GMT
+[DEBUG] 2024-03-28 00:39:22.797 [] headers - << Content-Type: application/json; charset=utf-8
+[DEBUG] 2024-03-28 00:39:22.797 [] headers - << Cache-Control: public, max-age=60, s-maxage=60
+[DEBUG] 2024-03-28 00:39:22.797 [] headers - << Vary: Accept, Accept-Encoding, Accept, X-Requested-With
+[DEBUG] 2024-03-28 00:39:22.797 [] headers - << ETag: W/"2de822c66c0debfcafa33f0881ee80c0766c62be97f66b8e0b66a0aeb3589cb8"
+[DEBUG] 2024-03-28 00:39:22.797 [] headers - << Last-Modified: Sat, 23 Mar 2024 23:21:13 GMT
+[DEBUG] 2024-03-28 00:39:22.797 [] headers - << X-GitHub-Media-Type: github.v3; format=json
+[DEBUG] 2024-03-28 00:39:22.797 [] headers - << x-github-api-version-selected: 2022-11-28
+[DEBUG] 2024-03-28 00:39:22.797 [] headers - << Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+[DEBUG] 2024-03-28 00:39:22.797 [] headers - << Access-Control-Allow-Origin: *
+[DEBUG] 2024-03-28 00:39:22.797 [] headers - << Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+[DEBUG] 2024-03-28 00:39:22.797 [] headers - << X-Frame-Options: deny
+[DEBUG] 2024-03-28 00:39:22.797 [] headers - << X-Content-Type-Options: nosniff
+[DEBUG] 2024-03-28 00:39:22.798 [] headers - << X-XSS-Protection: 0
+[DEBUG] 2024-03-28 00:39:22.798 [] headers - << Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+[DEBUG] 2024-03-28 00:39:22.798 [] headers - << Content-Security-Policy: default-src 'none'
+[DEBUG] 2024-03-28 00:39:22.798 [] headers - << Content-Encoding: gzip
+[DEBUG] 2024-03-28 00:39:22.798 [] headers - << X-RateLimit-Limit: 60
+[DEBUG] 2024-03-28 00:39:22.798 [] headers - << X-RateLimit-Remaining: 47
+[DEBUG] 2024-03-28 00:39:22.798 [] headers - << X-RateLimit-Reset: 1711581590
+[DEBUG] 2024-03-28 00:39:22.798 [] headers - << X-RateLimit-Resource: core
+[DEBUG] 2024-03-28 00:39:22.798 [] headers - << X-RateLimit-Used: 13
+[DEBUG] 2024-03-28 00:39:22.798 [] headers - << Accept-Ranges: bytes
+[DEBUG] 2024-03-28 00:39:22.798 [] headers - << Content-Length: 1663
+[DEBUG] 2024-03-28 00:39:22.798 [] headers - << X-GitHub-Request-Id: EFF7:310B48:EC1E615:ED20092:6604A01A
+[DEBUG] 2024-03-28 00:39:22.805 [] RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+[DEBUG] 2024-03-28 00:39:22.805 [] wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xb5]X[0x8f]O[0xdb]8[0x14][0xfe]W[0xac]N[0xd3]$F[0xd3]&iK[0x89]4[0xed][0xd8]`[0xbf]$[0xb6][0xdb][0xc1]i[0xd2][0xed]&[0xe4]&n[0xe2][0xe2][0xc4][0x99][0xed]P:[0xb4][0xff][0xfd]"
+[DEBUG] 2024-03-28 00:39:22.805 [] wire -  << ">;i[0x81][0x88]1n[0xcd][0x84][0xd4]8![0xf9][0xfc][0xf9][0xf9][0xbd][0xcf][0xef][0xbd][0xab]^[0xa5]D/[0xea]e[0xc6][0x94]:[0x1a][0xc]h[0xc9][0xbd][0x94][0x9b][0xac][0x9a]y[0xb1][0xcc][0x7][0x8a][0x95]R[0xf]N2:7o>[0xe]N[0xde][0x1c][0xbc]:=;z[0xff][0xfa][0xed][0xfb]#[0xfc]K0[0xaa][0x99][0x1e][0xf8][0xa3][0xe9]p[0x12]L[0xc3][0xfd][0xde]n[0x8f]j[0xcd][0x8c]>[0xeb][0xe]sP#[0x2][0xba]*[0x85][0xa4]I[0xb][0xba]~[0xa8][0x99]r[0x3][0xf5][0xbc][0xa0]9[0xdb][0x15]t[0xc6][0xc4]w[0xcc][0x95][0x99]\[0xb4]f[0xba]a[0x94][0xfb][0xcd]ah:[0x98]z[0xbe][0x17][0xc][0x83][0xd1]0[0xc]F[0x80][0xe3]I/[0xda]X[0x9]F[0xaa]L&U/[0xba][0xea][0x9][0x99][0xf2][0x2][0xd6][0xaf][0xc1][0xfb]46\[0x16][0xfa][0xf3]L[0x9a]/[0xcd]g#[0xba]?[\r][0xa6][0xc1]n[0xaf][0x90][0x9];[0xb3]H[0xbd][0xe3][0xc3][0xe3][0xc9][0xc7]|[0xf8][0xfe][0xf0]h[0xf4][0xe1]4]}8|[0xfb][0xcc][0xda][0xfe][0x82][0x1a][0xaa][0xda][0xb6]w[0xf][0xd7][0x6][0xaa]4S[0xb1],[0xc]+[0x8c][0xdb]^^[0xc][0xfc]q8[0x99]>[0xbf]xfy[0xa6][0xaa][0xc1]p[0xd3]X[0x9b][0xdf][0xe7][0x1b][0x16]L[0xf]nS<~[0x1][0xf2][0x8f][0xc7][0x87]?5"-[0xcb][0xf6][0xc7][0xf8]f.[0x85][0x90]K[0xe0][0xb6][0x97]q[0xdb]-[0xef][0x9d]z[0xb0][0x1][0xd9][0x0][0xf2]"[0xdd][0x1e][0x10] W[0x3]i2[0x6][0x1b]c[0xe9][0xd6]OR[0xae][0xe6][0xed][0xf7]Su[0x0]W0[0xa2]6[0xd8][[0xb][0xa9][0xb1]][0x8a][0xb5][0xfd][0xbc][0x15][0x96][0xf7][0x83]6[0x10] [0xbb],[0xc0][0xf3][0xca]E[0xb1][0xc3][0xae]f:V[0xbc]t^[0xb6][0x8d]An[0x1][0x1]X[0xaa][0x94][0x16][0xfc][0x1b][0xdd][0x1a][0x18]@[0x1a]xNv[0xb6]![0xe8][0x0][0x0][0xc4].[0xe0][0xea][![0xd5][0x8]W[0x83]R[0xf1][0xb][0x1a][0xaf][0xac][0x19][0x15][0x8b][0x19][0xbf][0xc0][0x1e]m[0x8f][0xde][0x82][0x2][0xb8]Y[0x95][0xc][0xc1][0xf7]B[0x1a][0xbb]a[0xdc][0xb0]3[0x9a][0xe4]V$[0xe6]Th[0xf6][0xfd][0xa6][0xe][0xfc]utv[0xbe]<[0xfc][0xf0][0xf2]5;[0x9d][0xe8][0xd1][0xdb][0xe1][0xf0]]h[0x1]hzf[0xd5][0xc] -[0x19][0x82]g[0xa5][0xcc][0x9c]![0xf0]sn[0xb8][0xce][0xf0]FN[0x1][\r][0xcc];[0xdf]O[0x14]d[0xbf][0x99]x[0xb7]W*[0xd6]H[0xfe][0xe6]Q[0xac][0x18]5[0xb0][0x3][0xc5][=[0xab]w[0xfd]a[0xd8][0xf][0xc2][0xd3] [0x8c][0xfc][0xfd]h8[0xf9][0x7][0xd0]e5[0x13][0x98][0xeb][0xee][0xb7][0x2]?[0xf2]C[0xfb]V[0xa3][0xf2][0xd1][0xe7]/v[0x1]jFE[[0x1f]~05[0xdf][0xb7]E[0xf8][0x1b]/[0xb7][0x82]m[0xbe]o[0xc3][0xce]d[0xb2][0xc2][0xea][0x1f]="[0x9f]2j[0x9e]h[0xf2]2[0xa3]E[0xca][0x92][0x8b][0x1d]r[0x82]#26[0xc7][0xc]r[0x9f][0x1c][0xcb][0xf8][0x9c]%[0xa7]L[0x1b]2[[0x91]?[0x8e]+D[0xe9][0x9c][0x1e][0xa4]4_[0x11]^[0x90][0xf5][0xf9][0xfb][0xb3]c[0xa6][0xac][0x84][0x80]f[0xfb][0x13][0x8b][0xff][0xa2][0xca]K[0x82][0x90][0xf1]r[0x80]s#[0xa3][0xe6][0xda][0x8f][0xa5]bd[0xae]dN[0xc6][0x9e]?[0xf4][0x86][0xc4]H;[0xf2]1[0xb2][0x93]'[0xac]dEB[0xa1][0xd4][0xbf]2[0xf5][0xd8]N} D[0x85]9h[0x92][0x10]j[0xc][0x8d]3[0x96]#[0xd2]H[0xc1][0x96][0xc4][0x1e]jq'[0x8b][0xdc]s3%[0x9]K[0x1c][0xb0]f%Up8[0x12][0xb][0xf8][0xb][0x99]KE`[0xeb]D@[0x98][0x1b][0x12][0x96][0x83][0xee]d[0xea][0xe9]-[0xfb][0xd2][0xd2][0xae][0xd0][0xc3][0xca]p^[0xa7][0xf6]:ZD[0xee][0xf7][0x86][0xa9][0x3]/[0x8]kS[0xbb][0x91][0xdf][0x81][0xa9][0xf7][0x1f][0xca][0x2][0xd1]Q[0xef]w[0xf7]$[0x82][0xe1]CI [0xe7][0xe9][0xff]N"[0xfe]C[0x89]h1[0x1f]-[0x82]>[0xcf]K[0xf1][0xdb][0xac][0x12]l[0xc8]@O[0xbd]9[0xd5][0x86][0xa9][0xcb]\x[0xb][0x1a][0x9f]kYx[0x9][0xf2].[0xab][0xe5]Q[0xf3][0xa0][0xbf]~[0xd0]_$[0xe7][0xd3]5-[0x2]?Ap[0x6][0x1e]F[0xc1][0xf6][0x1e][0x13][0x84]][0xd1][\n]"
+[DEBUG] 2024-03-28 00:39:22.806 [] wire -  << "[0x1a]Z{]hF[0xe0]4[0xc3][0xc9][0x95][0xb5]V*e*[0x98][0x97]VH7#[0xf7][[0xdb]#D[0xfc]x[0xc3][0xfe][0x2][0xc2][0x2][0x9b][0xe0][0xe][0x82][0xe5][0xee][0xb6][0x16][0xad][0xc0]I[0xc9]F/[0x9b]x.[0x93][0xf9]L^F[0xf5][0xa5][0xa1][0x0][0x6]nG,[0x95].6[0xe4]N![0xc9])[0xf2][0x12][0xaf][0x14][0x15][0xe4]DG[0xee][0xae][0x9f][0x96]i[0xbf]~[0xb2]fb[0xe5][0xda]1[0x81]wt`[0x82]k1[0xe1][0xd2][0xfb][0x8a][0x13][0xdf]P[0xf][0xe7],d<[0xaa]/[0xfd][0x5]v[0x2][0x82][0x96][0xe7]H[0xf]7[0x81]3[0xde]h[0xda][0xa4][0xb]W[0x8][0xaf]=[0xf4][0x87]4[0xaa][0x82][0x9b][0xf1]o#p[0x1d][0xb9]?"`pJ[0xe3]Lq[0x7]([0x4][0xb5]k[0xb]\[0xeb][0x18][0x8][0xa0][0xe][0xe2]U[0xe][0x95][0xb0][0xa6][0x17][0xdc][0x1e][0xa2]n[0xde]}[0xeb][0xfc]v[0xfb][0xf7][0xb1][0xfd][0x1d][0x1c][0xdb]aK[0xc6]u[0x89][0xd4]d[0x11][0xd1][0xfa][0xba]d[0xf0]AU[0xcf][0xec]{[0x98][0xd2][0xaf][0xa3][0xa0][0x19]w[0x11][0x8].c9Y[0x15]q[0xa6][0xe4][0xba]V 9-h[0x8a][0x89]]J$3:[0xc3][0xf]g[0xbf][0x90][0x95][0x84]#[0xb][0xff]'[0xf2][0x3]![0x98]hJ[0x91][0xe]`[0x9d]p[0xbd][0xe2][0x97]$F[0xc2][0x86]m)[0x95][0x9c]s[0xc1]H[0x82]r[0x0][0xbc]9<[0x15][0x9][0x8f],[0xc9]S2[0xc7][[0x9f](7[0x7]u[0x15]O[0xe6][0x94][0xbb][0x1c])[0x91]L[0x17]O[0xc]1[0xf4][0x9c][0x11][0xd4]_[0x8c][0x15]:C[0xea][0xb5][0xf5][0x9a]Gw[0x9e][0xcc]wi[0xb]b[0xba][0x4]k[0xd5][0x16][0x18]+,Na|[0x9b][0xb9]l[0xad][0xb2][0xe1][0xed]|[0x5][0xb6]Z[0xc0][0xc9][0x84][0xcc]g[0xf2][0x1c][0xe9][0x92][0xbd][0xac]][0xcc][0x9f]z[0xa1]so8[0x1a][0x86][0x1d]8Xx[iQ[0xff][0x99]T1[0xfd]UD[0xd7][0xc3]z[0xf6]Q[0xe0][0xed]A[0xdb]1[0xb9][0x1b][0x85][0x1d],[0xfc][0xfa]x[0xb1][0xe7][0x1b][0xf2][0xd4][0xdc][0xcb][0x18][0x15][0xac][0xb0][0xb1][0xbd][0x19][0xf5][0x97]l[0xb6][0x16][0xf7]FTB[0xf]yy[0x7][0x4]\t[0xfd]]"[0xc9]@z[0x9c][0x94][0x4][0xce][0xa9]Q[0xe5][0x13]?[0xa8]M[0xbb]Up[0x8d][0x9c]b[0xb9]\[0x1b][0x1e]l[0x14]r[0xe0]Y[0xc5]E[0x82][0x0][0x80][0x11][0xe9][0x85][0xe4][0x9]a[0x97]1s[0x8d][0x85][0xe][0xfc][0xda][0xc5][0xb2]?[0x1e]ag[0xaa][0x14]1vA[0x5]O[0xb4]+[0xa6]P[0xd8]l&[0xe2][0x9a][0x18][0x88][0xc9][0xb2][0xb0]z[0xa1]e[0x8e][0x95][0xdb][0x86]$[0x1][0x7]w7[0xc3][0xff][0xd0][0xa8][0x91]"
+[DEBUG] 2024-03-28 00:39:22.806 [] wire -  << "[0xda]&[0x1d]3^[0xd4][0xed][0x89][0xe][0xf8]9Q[0x0][0xbf]=[0xc7]O[0xdb][0xee](D [0xa6]`Gr[0xb4][0xe9][0x8][0x98]Y[0x6][0x86][0xe7][0xa0][0xa3]M[0x15][0x9f][R1[0x8a][0x96]e[0xc6][\n]"
+[DEBUG] 2024-03-28 00:39:22.806 [] wire -  << "[0xa2][0xaa][0xa2]pE[0xb]Q,[0xad][0x4][0x85][0x19]m][0x8][0x18]X[0x94]Z[0xc0]D.[0xa1][0x1b]y[0xfd]|{[0xa1]pqiUL[0xa3][0xe6]T[0x1c][0xfc]tUgU[[0xf9][0xc5][0xd8][0x9]P[0xd3][0x15][0x80]4[0xb2][0x92][0xdc]l9lo[0xe9]1[0x1c][0xcf][0xfe][0xed][0xec][0xbc]B[0xdd][0xdb][0x94][0xd6][0xa8][0xbb]vv[0xa2][0x7]W[0xcc]V[0xfb][0xa8]b[0xd7]u{[0x10][0x8c]<[0xcf]k[0xf5]F[0xd0][0xc9][0xa8]e[0xdb][0xb6]e[0xef]m{[0xfe][0xaf][0x96]8Zok\46[0xa4][0xa1][0x2][0xed][0x97][0xaa]@[0xbf]$[0xd8][0xed]=[0xf5][0xdd][0xa5][0x8f][0xcb]p[0xb7]'h[0x95][0xa2]%[0x83]Q&[0xa5][0xa2]h*`[0x88]f[0xed][0x1c][0xcd]>[0xb4]c[0xed]sF[0x15][0xbe][0xc4]H[0xd9]fB=d+[0xa6][0xf1][0xc][0x8d]![[0xfc][0xba][0xc6]^3C[0xf8][0xfd]?.J[0xd5][0xaf][0xdd][0x17][0x0][0x0]"
+[DEBUG] 2024-03-28 00:39:22.806 [] RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+[DEBUG] 2024-03-28 00:39:22.840 [] BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@31109599
+[DEBUG] 2024-03-28 00:39:22.840 [] BasicClientConnectionManager - Connection can be kept alive indefinitely
+[INFO ] 2024-03-28 00:39:23.306 [main] ReportManager - Engine Update check done for the day. 👍
+[INFO ] 2024-03-28 00:39:23.948 [main] ReportManager - Loaded OpenCV "opencv_java490".
+[INFO ] 2024-03-28 00:39:23.949 [main] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2024-03-28 00:39:24.036 [main] ReportManager - Initializing Important Links...
+[ERROR] 2024-03-28 00:39:24.039 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-03-28 00:39:24.041 [main] ReportManager - Initializing Properties...
+[ERROR] 2024-03-28 00:39:24.047 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-03-28 00:39:24.048 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-03-28 00:39:24.049 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-03-28 00:39:24.050 [main] AllureLifecycle - Could not add attachment: no test is running
+[ERROR] 2024-03-28 00:39:24.050 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-03-28 00:39:24.282 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                              Starting Execution: "1 out of 2" scenarios in the "Add to Cart Functionality" feature                              
+                                                 Scenario Name: "Add item to Cart Successfully"                                                 
+                                                                 Scenario Steps:                                                                 
+                                         Given User Clicked on add to cart button for product index = 0                                         
+                                                                 And Choose HDD                                                                 
+                                                                 And Choose RAM                                                                 
+                                                        And Clicked on add to cart button                                                        
+                                                   Then Successfully Cart Notification Appear                                                   
+                                                             And close Notification                                                             
+                                                               And go to Cart page                                                               
+                                                Then Assert if product added to cart successfully                                                
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-03-28 00:39:24.297 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2024-03-28 00:39:24.311 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: MicrosoftEdge, ms:edgeOptions: {args: [--start-maximized], extensions: [], prefs: {download.default_directory: E:\College\Testing\Projects..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2024-03-28 00:39:24.312 [main] ReportManager - Attempting to run locally on: "Windows | Microsoft edge".
+[INFO ] 2024-03-28 00:39:24.312 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2024-03-28 00:39:27.296 [main] ReportManager - Successfully Opened: "Windows | Microsoft edge".
+[INFO ] 2024-03-28 00:39:27.305 [main] ReportManager - Target URL: "https://demo.nopcommerce.com/"
+[INFO ] 2024-03-28 00:39:27.318 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2024-03-28 00:39:28.478 [main] ReportManager - Navigate to url "https://demo.nopcommerce.com/".
+[INFO ] 2024-03-28 00:39:28.492 [main] ReportManager - Get current window title "nopCommerce demo store".
+[INFO ] 2024-03-28 00:39:28.492 [main] ReportManager - Expected "nopCommerce demo store", and actual "nopCommerce demo store"
+[INFO ] 2024-03-28 00:39:29.543 [main] ReportManager - Verification "ValidateBrowserAttribute" PASSED. Expected "Value Should be 'nopCommerce demo store' for the 'title' attribute" and Actual "nopCommerce demo store". Comparison Type "EQUALS". Validation Type "POSITIVE".
+[INFO ] 2024-03-28 00:39:29.545 [main] ReportManager - Successfully created attachment 'Screenshot - ValidateBrowserAttribute_passed_1711579168707'
+[INFO ] 2024-03-28 00:39:29.546 [main] ReportManager - the Browser title is equal to "nopCommerce demo store".
+[INFO ] 2024-03-28 00:39:29.727 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-03-28 00:39:29.761 [main] ReportManager - Click "ADD TO CART".
+[INFO ] 2024-03-28 00:39:31.203 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-03-28 00:39:31.275 [main] ReportManager - Click "320 GB".
+[INFO ] 2024-03-28 00:39:31.641 [main] ReportManager - Select "2 GB" from "By.id: product_attribute_2".
+[INFO ] 2024-03-28 00:39:31.792 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-03-28 00:39:31.824 [main] ReportManager - Click "ADD TO CART".
+[INFO ] 2024-03-28 00:39:32.211 [main] ReportManager - Get text "The product has been added to your shopping cart" from "By.cssSelector: div[class="bar-notification success"] p[class="content"]".
+[INFO ] 2024-03-28 00:39:32.211 [main] ReportManager - Expected "The product has been added to ", and actual "The product has been added to your shopping cart"
+[INFO ] 2024-03-28 00:39:32.786 [main] ReportManager - Successfully created attachment 'Screenshot - VerifyElementAttribute_passed_1711579172543'
+[INFO ] 2024-03-28 00:39:32.939 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-03-28 00:39:32.964 [main] ReportManager - Click "Close".
+[INFO ] 2024-03-28 00:39:33.130 [main] ReportManager - Moved the mouse to the middle of the element.
+[INFO ] 2024-03-28 00:39:34.025 [main] ReportManager - Click "Shopping cart (1)".
+[INFO ] 2024-03-28 00:39:34.028 [main] ReportManager - Attempting to getAttribute "hidden" from elementLocator "By.id: updatecart".
+[INFO ] 2024-03-28 00:39:34.082 [main] ReportManager - Get attribute from "Update shopping cart".
+[INFO ] 2024-03-28 00:39:34.082 [main] ReportManager - Expected "null", and actual "null"
+[INFO ] 2024-03-28 00:39:34.428 [main] ReportManager - Successfully created attachment 'Screenshot - VerifyElementAttribute_passed_1711579174303'
+[INFO ] 2024-03-28 00:39:43.673 [main] ReportManager - Successfully Closed Driver.
+[INFO ] 2024-03-28 00:39:43.726 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
+[ERROR] 2024-03-28 00:39:43.727 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-03-28 00:39:43.728 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log: 20240328-003943'
+[ERROR] 2024-03-28 00:39:43.729 [main] AllureLifecycle - Could not add attachment: no test is running
+[INFO ] 2024-03-28 00:39:43.730 [main] ReportManager - Successfully created attachment 'HTML - Checkpoints Report'
+[INFO ] 2024-03-28 00:39:43.735 [main] ReportManager - Executing: "C:\Users\User\.m2\repository\allure\allure-2.26.0/bin/allure.bat generate --single-file --clean 'allure-results' -o 'E:\College\Testing\Projects\Automation_ShaftEngine\target\allure-report'" locally.
+[INFO ] 2024-03-28 00:39:45.909 [main] ReportManager - Executing: ".\allure-report\2024-03-28_00-39-45-902_AllureReport.html" locally.
+[INFO ] 2024-03-28 00:39:46.132 [main] ReportManager - Terminal Action "PerformTerminalCommands" successfully performed. With the following test data "Host Name: "localHost" | Command: ".\allure-report\2024-03-28_00-39-45-902_AllureReport.html" | Exit Status: "0"".
+[INFO ] 2024-03-28 00:39:46.133 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           This test run was powered by [1mSHAFT v.8.1.20240324[22m                                           
+                               SHAFT [1;4mis and will always be 100% FREE[22;24m for commercial and private use                               
+                                                   in compliance with the [1mMIT license[22m                                                   
+                                   Visit SHAFT's user guide [4mhttps://shafthq.github.io/[24m to learn more                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2024-03-28 00:39:46.133 [main] ReportManager - 1 Scenarios ([32m1 passed[0m)
+[INFO ] 2024-03-28 00:39:46.133 [main] ReportManager - 8 Steps ([32m8 passed[0m)
+[INFO ] 2024-03-28 00:39:46.135 [main] ReportManager - 0m19.598s
